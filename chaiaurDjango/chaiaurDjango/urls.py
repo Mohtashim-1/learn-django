@@ -23,5 +23,5 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('contact/', views.contact, name='contact'),
     path('chai/', include('chai.urls')),
-    path('all_chai/', views.all_chai, name='all_chai')
+    path('chaiapp/', include('chaiapp.urls'))
 ]
